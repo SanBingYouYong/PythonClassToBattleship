@@ -126,13 +126,6 @@ class class_gui_generator():
         cv.imshow("canvas", canvas)
         cv.waitKey(0)
         cv.destroyAllWindows()
-    
-    def texting(self, methods):
-        pass
-    
-
-
-
 
 
 if __name__ == "__main__":
@@ -152,8 +145,7 @@ if __name__ == "__main__":
     testing_dict = {
         Components.Head: ["Super Long Class"],
         Components.Arms: ["Turret 1", "Turret 2", "Turret 3", "Turret 4", "Turret 5", "Turret 6", "Turret 7"],
-        Components.Bridge: ["Smol Bridge", "Smol Bridge 2"],
+        Components.Bridge: ["Small Bridge", "Small Bridge 2"],
         Components.Engine: ["Engine 1", "Engine 2"]
     }
-    # print(testing_dict)
     cgg.manual_assign_manual_draw(testing_dict)
